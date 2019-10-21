@@ -1,3 +1,6 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  new_pigeon_hash = {}
+data.reduce({}) do |memo, (key, value)|
+  memo.invert
+end
 end
