@@ -9,4 +9,4 @@ end
 if new_pigeon_hash[name][key] == nil
   new_pigeon_hash[name][key] = []
 end
-new_pigeon_hash[name][key].push
+new_pigeon_hash[name][key].push(stats.to_s)
