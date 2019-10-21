@@ -6,5 +6,6 @@ data.each do |key, value|
       if new_pigeon_hash[name] == nil
         new_pigeon_hash[name] = {}
 end
-if new_pigeon_hash[name][key]
+if new_pigeon_hash[name][key] == nil
+  
 end
