@@ -3,5 +3,6 @@ def nyc_pigeon_organizer(data)
 data.each do |key, value|
   value.each do |stats, pigeon_names|
     pigeon_names.each do |name|
+      if new_pigeon_hash[name] == nil
 end
 end
